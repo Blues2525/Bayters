@@ -164,7 +164,7 @@
     height: 0vw;
   }
   to {
-    height: 18vw;
+    height: 14vw;
     box-shadow: 0px 1px 10px rgba(195, 195, 195, 0.7333333333);
   }
 }
@@ -180,6 +180,7 @@ body {
   margin: 0 0;
   height: 500vh;
   overflow-x: hidden;
+  background-color: whitesmoke;
   scroll-behavior: smooth;
   overscroll-behavior: contain;
 }
@@ -1451,6 +1452,8 @@ a.company:hover, a.products:hover, a.resources:hover, a.contact:hover {
   html, body {
     overflow-x: hidden;
     overflow-y: scroll;
+    height: -moz-fit-content;
+    height: fit-content;
   }
   .navbar {
     animation: openheightss 2s forwards;
@@ -1459,166 +1462,40 @@ a.company:hover, a.products:hover, a.resources:hover, a.contact:hover {
     display: none;
   }
   .logo {
-    width: 10.8vw !important;
-    height: 6.5vw !important;
-    margin-left: -16.5vw !important;
-    margin-top: 5.7vw !important;
+    width: 10.05vw !important;
+    height: 6.05vw !important;
+    margin-top: 3.5vw !important;
+    margin-left: -15vw;
+    margin-right: 0vw;
   }
-  .navbar div .name {
-    font-size: 6vw !important;
-    font-weight: 500 !important;
-    left: 20vw !important;
-    bottom: -3.2vw !important;
+  .navbar .name .Bayter {
+    font-size: 5.5vw !important;
+    font-weight: 700 !important;
+    left: 23.5vw !important;
+    bottom: -1.5vw !important;
   }
   .bars {
     display: block;
     background-color: transparent;
-    color: black;
-    transform: scale(2.1);
+    color: #001763;
+    transform: scale(2);
     position: relative;
-    top: 6.5vw;
-    left: 24.5vw;
+    top: 5.5vw;
+    left: 65vw;
     opacity: 0%;
     border: none;
     animation: openopacity 2s forwards;
     animation-delay: 1.5s;
+    cursor: pointer;
   }
-  .smallnav {
-    background-color: white;
-    width: 0%;
-    height: 0%;
-    z-index: 0 !important;
-    position: relative !important;
-    bottom: 0;
-    opacity: 0%;
-    display: none !important;
-  }
-  .smallnav.viewing {
-    z-index: 900 !important;
-    position: fixed !important;
-    display: block !important;
-    animation: openss 0.5s forwards;
-  }
-  .smallnav .x-button {
-    transform: scale(2.5);
-    background-color: transparent;
+  .welcome .dashboard-image {
+    transform: scale(275%) !important;
     position: relative;
-    color: black;
-    float: right;
-    left: -6vw;
-    top: 8vw;
+    top: 19s0vw;
+    left: -58.5vw !important;
   }
-  .smallnav .linetwo {
-    width: 100vw;
-    height: 0.2vw;
-    background-color: rgb(235, 235, 235);
-    left: 0vw;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  }
-  .smallnav a {
-    color: black;
-    font-size: 3.8vw;
-    font-weight: 200;
-    font-family: "Raleway";
-    text-decoration: none;
-    padding-left: 5vw;
-    background-color: white;
-    font-weight: 300;
-  }
-  .sn-company.views, .sn-resources.views, .sn-products.views {
-    background-color: #fafafa;
-  }
-  .smallnav .sn-company, .smallnav .sn-products, .smallnav .sn-resources, .smallnav .sn-contact {
-    display: block;
-    padding-top: 5vw !important;
-    padding-bottom: 5vw !important;
-  }
-  .smallnav a.sn-company i {
-    margin-left: 63vw;
-    position: relative;
-  }
-  .smallnav a.sn-products i {
-    margin-left: 45vw;
-    position: relative;
-  }
-  .smallnav a.sn-resources i {
-    margin-left: 61.4vw;
-    position: relative;
-  }
-  .smallnav a, .smallnav .linetwo {
-    position: relative;
-    top: 25vw;
-  }
-  .smallnav .sn-company-infos {
-    width: 20vw !important;
-    display: none;
-  }
-  .smallnav .sn-products-infos {
-    width: 20vw !important;
-    display: none;
-  }
-  .smallnav .sn-resources-infos {
-    width: 20vw !important;
-    display: none;
-  }
-  .smallnav div a {
-    display: block;
-    color: rgb(70, 70, 70);
-    font-weight: 300;
-    font-size: 3.7vw;
-    padding-top: 3vw !important;
-    padding-left: 12vw !important;
-    right: 5vw !important;
-    background-color: #fafafa;
-    width: 100vw;
-    padding-bottom: 5vw !important;
-    top: 25vw;
-  }
-  .smallnav .Gtd {
-    background-color: #001763;
-    border: #001763 0.2vw solid;
-    padding: 3vw 3vw 3vw 3vw;
-    top: 32vw;
-    color: white;
-    font-size: 3.8vw;
-    font-family: "Raleway";
-    position: relative;
-  }
-  .smallnav .Lmb {
-    background-color: transparent;
-    border: #001763 0.2vw solid;
-    padding: 3vw 3vw 3vw 3vw;
-    top: 32vw;
-    color: #001763;
-    font-size: 3.8vw;
-    font-family: "Raleway";
-    position: relative;
-    margin-right: 4vw;
-    margin-left: 5vw;
-  }
-  .smallnav .linetwotwo#two {
-    top: 13vw !important;
-    position: relative;
-    width: 100vw;
-    height: 0.2vw;
-    background-color: rgb(235, 235, 235);
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  }
-  .dashboard-image {
-    display: none;
-  }
-  .ending {
-    position: relative !important;
-    top: 800vw !important;
-  }
-  .welcome {
-    background-color: rgba(0, 20, 87, 0.0705882353);
-    height: 170vw;
-    width: 100%;
-  }
-  .welcome *:not(.navbar) {
-    text-align: left;
-    top: 30vw !important;
+  .welcome .dashboard-image .fifty, .welcome .dashboard-image .seventy, .welcome .dashboard-image .ninety, .welcome .dashboard-image .cb, .welcome .dashboard-image .cb2, .welcome .dashboard-image .shipped, .welcome .dashboard-image .clients {
+    opacity: 0% !important;
   }
   .welcome .sample-data {
     font-size: 80%;
@@ -1627,20 +1504,21 @@ a.company:hover, a.products:hover, a.resources:hover, a.contact:hover {
     padding-top: 1.3vw;
     padding-bottom: 1.3vw;
     left: 35vw;
-    top: 35vw !important;
+    top: -49vw !important;
     text-align: center;
   }
   .welcome .header {
-    font-size: 320%;
+    font-size: 340%;
     line-height: 14vw;
     position: relative;
     text-align: center;
-    left: 0vw !important;
-    top: 38vw !important;
+    left: 9vw !important;
+    top: -45vw !important;
+    width: 80vw;
   }
   .welcome .description {
     font-size: 90%;
-    top: 43vw !important;
+    top: -42vw !important;
     width: 88%;
     left: 7vw !important;
     text-align: center;
@@ -1650,237 +1528,415 @@ a.company:hover, a.products:hover, a.resources:hover, a.contact:hover {
     font-size: 100%;
     position: relative;
     padding: 2vw 5vw 2vw 5vw;
-    left: 36vw !important;
-    top: 48vw !important;
+    left: 34vw !important;
+    top: -35vw !important;
   }
-  .features-description {
-    font-size: 80%;
-    width: 45vw;
-    padding-bottom: 2vw;
-    padding-top: 2vw;
-    top: 15vw;
-    left: 28vw;
-  }
-  .features-header {
-    top: 20vw !important;
-    font-size: 180%;
-    left: 1vw;
-  }
-  .features .square {
-    top: 65vw !important;
-    position: relative;
-    width: 20%;
-    transform: scale(4.2);
-    left: 40vw;
-    margin-right: 40vw !important;
-    margin-bottom: 75vw !important;
-  }
-  body {
-    height: 1000vh !important;
-  }
-  .dashboard-guide {
-    top: 490vw;
-    transform: scale(2.2);
-  }
-  .dashboard-guide .header {
-    color: white;
-    bottom: 430vw;
-    left: 30vw;
-    transition-delay: 0s !important;
-    transition-duration: 0s !important;
-    position: relative;
-    width: 40vw;
-    font-size: 90%;
-    opacity: 100%;
-  }
-  .dashboard-guide .information {
-    bottom: 428vw;
-    width: 35vw;
-    left: 32vw;
-    font-size: 1.35vw;
-  }
-  .dashboard-guide .fulldash {
-    bottom: 357vw !important;
-    left: 23vw;
-    transform: scale(0.79);
-  }
-  .business-needs .header {
-    font-size: 230%;
-    text-align: center !important;
-    top: 245vw !important;
-    position: relative;
-    width: 80vw !important;
-  }
-  .business-needs .Performance-graph {
-    transform: scale(2.5);
-    position: relative;
-    left: 28vw !important;
-    bottom: -265vw !important;
-  }
-  .business-needs .description {
-    transform: scale(3.5);
-    width: 24vw;
-    position: relative;
-    top: 360vw !important;
-    left: 38vw !important;
-    text-align: center !important;
-  }
-  .business-needs .description2 {
-    transform: scale(3.3);
-    width: 25vw;
-    position: relative;
-    top: 392vw !important;
-    left: 44vw !important;
-    text-align: left !important;
-  }
-  .business-needs .description2 div {
-    margin-bottom: 2.5vw !important;
-  }
-  .business-needs .gdemo {
-    transform: scale(3.3);
-    position: relative;
-    top: 390vw !important;
-    left: 45vw !important;
-  }
-  .Brand-guide .header {
-    font-size: 230%;
-    text-align: center !important;
-    top: 400vw !important;
-    left: 10vw !important;
-    position: relative;
-    width: 80vw !important;
-  }
-  .Brand-guide .Performance-graph {
-    transform: scale(2.5);
-    position: relative;
-    left: 28vw !important;
-    bottom: -425vw !important;
-  }
-  .Brand-guide .description {
-    transform: scale(3.5);
-    width: 24vw;
-    position: relative;
-    top: 515vw !important;
-    left: 38vw !important;
-    text-align: center !important;
-  }
-  .Brand-guide .description2 {
-    transform: scale(3.5);
-    width: 24vw;
-    position: relative;
-    top: 547vw !important;
-    left: 33vw !important;
-    text-align: center !important;
-  }
-  .Brand-guide .gdemo2 {
-    transform: scale(3.3);
-    position: relative;
-    top: 545vw !important;
-    left: 45vw !important;
-  }
-  .questions .questions-header {
-    transform: scale(2.5) !important;
-    text-align: center;
-    top: 620vw !important;
-    left: 2vw !important;
-  }
-  .questions .details {
-    transform: scale(3.3);
-    position: relative;
-    top: 638vw !important;
-    width: 23vw !important;
-    left: 38vw !important;
-    text-align: center;
-  }
-  .questions .cu {
-    transform: scale(3.3);
-    position: relative;
-    top: 650vw !important;
-    left: 46vw !important;
-  }
-  .questions .dropdown {
-    transform: scale(4.2);
-    position: relative;
-    top: 710vw !important;
-    left: 167vw !important;
-  }
-  .questions .dropdown .head .infos {
-    margin-left: 1vw;
-    width: 19vw !important;
-  }
-  .questions .dropdown .head button .ad {
-    margin-left: 8vw;
-    transform: rotate("0deg");
-  }
-  .questions .dropdown .head button {
-    color: black !important;
-    font-weight: 500;
-  }
-  .questions .dropdown .liners {
-    width: 19vw;
-    height: 0.12vw;
-    background-color: black;
-    margin-top: 1vw !important;
-    margin-left: 1vw;
-  }
-  .trynow {
-    height: 75vw;
-    bottom: -785vw !important;
-  }
-  .trynow .improve-header {
-    transform: scale(2.3);
-    width: 40vw !important;
-    top: 20vw;
-    left: 30vw;
-  }
-  .trynow .gd {
-    transform: scale(2.8);
-    font-weight: 300;
-    top: 37vw !important;
-    left: 62vw !important;
-  }
-  .trynow .cu {
-    transform: scale(2.8);
-    font-weight: 300;
-    top: 37vw !important;
-    left: 11vw !important;
-  }
-  .ending .thelogo {
-    transform: scale(0.3);
-    image-rendering: optimizeQuality;
-    top: -15vw !important;
-    opacity: 0% !important;
-    left: -10vw !important;
-  }
-  .ending .logoname {
-    transform: scale(4.5);
-    font-weight: 500;
-    left: 203vw !important;
-    bottom: 33vw;
-  }
-  .ending .desc {
-    display: none;
-  }
-  .statistics {
-    display: none !important;
+  .features {
     opacity: 0%;
   }
-  .ending-nav div {
-    display: block;
-    transform: scale(3.5);
-    margin-bottom: 50vw !important;
-    font-weight: 400;
-    left: 119vw !important;
-    float: none;
+  /*
+  .smallnav{
+      height: 200vw;
+      width: 200vw; 
+      position: relative;
+      top: 0vw;
+      background-color: green;
   }
-  .ending-nav-info div {
-    transform: scale(2);
-    float: none;
+  .smallnav.viewing{
+      width: 100%; 
+      height: 100%;
+      opacity: 100%; 
+      z-index: 900 !important;
+      position: fixed !important;
+      display: block !important;
   }
-  .ending-nav-info .navinfosone div {
-    bottom: 400vw !important;
-    margin-bottom: 4vw;
+   /*
+  .smallnav .x-button{
+      transform: scale(2.5);
+      background-color: transparent;
+      position:relative;
+      color: black;
+      float:right;  
+      left: -6vw;
+      top: 8vw; 
   }
+  .smallnav .linetwo{
+      width: 100vw; 
+      height: 0.2vw; 
+      background-color: rgb(235, 235, 235);
+      left: 0vw; 
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .smallnav a{
+      color:black; 
+      font-size: 3.8vw;
+      font-weight: 200;
+      font-family: "Raleway";
+      text-decoration: none;
+      padding-left: 5vw; 
+      background-color: white;
+      font-weight: 300;
+  }
+
+  .sn-company.views, .sn-resources.views, .sn-products.views{
+      background-color:#fafafa;
+  }
+  .smallnav .sn-company, .smallnav .sn-products, .smallnav .sn-resources, .smallnav .sn-contact {
+      display: block;
+      padding-top: 5vw !important; 
+      padding-bottom: 5vw !important;
+  }
+  .smallnav a.sn-company i{
+      margin-left: 63vw; 
+      position:relative; 
+  }
+  .smallnav a.sn-products i{
+      margin-left: 45vw; 
+      position:relative; 
+  }
+  .smallnav a.sn-resources i{
+      margin-left: 61.4vw;   
+      position:relative; 
+  }
+  .smallnav a, .smallnav .linetwo{
+      position: relative; 
+      top: 25vw; 
+  }
+  .smallnav .sn-company-infos{
+      width: 20vw !important; 
+      display: none;
+  }
+  .smallnav .sn-products-infos{
+      width: 20vw !important; 
+      display:none; 
+  }
+  .smallnav .sn-resources-infos{
+      width: 20vw !important; 
+      display: none; 
+  }
+  .smallnav div a{
+      display: block;
+      color: rgb(70, 70, 70); 
+      font-weight: 300;
+      font-size: 3.7vw; 
+      padding-top: 3vw !important; 
+      padding-left: 12vw !important; 
+      right:5vw !important; 
+      background-color: #fafafa;
+      width: 100vw; 
+      padding-bottom: 5vw !important; 
+      top: 25vw; 
+  }
+  .smallnav .Gtd{
+      background-color: $colortheme;
+      border: $colortheme 0.2vw solid;
+      padding: 3vw 3vw 3vw 3vw; 
+      top: 32vw;  
+      color:white; 
+      font-size: 3.8vw; 
+      font-family: "Raleway";
+      position:relative; 
+  }
+  .smallnav .Lmb{
+      background-color: transparent;
+      border: $colortheme 0.2vw solid;
+      padding: 3vw 3vw 3vw 3vw; 
+      top: 32vw;  
+      color:$colortheme; 
+      font-size: 3.8vw; 
+      font-family: "Raleway";
+      position:relative; 
+      margin-right: 4vw; 
+      margin-left: 5vw; 
+  }
+  .smallnav .linetwotwo#two{
+      top: 13vw  !important;
+      position:relative;  
+      width: 100vw; 
+      height: 0.2vw; 
+      background-color: rgb(235, 235, 235);
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .dashboard-image{
+      display: none;
+  }
+   .ending{
+      position: relative !important; 
+      top: 800vw !important; 
+  }
+  .welcome{
+      background-color: #00145712;
+      height: 170vw; 
+      width: 100%; 
+  }
+  .welcome *:not(.navbar){
+      text-align: left;
+      top: 30vw !important; 
+  }
+  .welcome .sample-data{
+      font-size:80%;
+      width: 25vw; 
+      border-radius: 5vw;
+      padding-top: 1.3vw; 
+      padding-bottom: 1.3vw; 
+      left: 35vw; 
+      top: 35vw !important; 
+      text-align: center;
+
+  }
+  .welcome .header{
+      font-size: 320%; 
+      line-height: 14vw;
+      position:relative; 
+      text-align: center;
+      left: 0vw !important;
+      top: 38vw !important;
+
+  }
+  .welcome .description{
+      font-size: 90%; 
+      top: 43vw !important;
+      width: 88%; 
+      left: 7vw !important; 
+      text-align: center;
+      line-height: 5.5vw;
+  }
+  .welcome .Learnmore{
+      font-size: 100%;
+      position: relative;
+      padding: 2vw 5vw 2vw 5vw;
+      left:36vw !important;
+      top:48vw !important;
+  }
+  .features-description{
+      font-size: 80%;
+      width: 45vw; 
+      padding-bottom: 2vw;
+      padding-top: 2vw;
+      top: 15vw; 
+      left: 28vw; 
+  }
+  .features-header{
+      top: 20vw !important; 
+      font-size: 180%;
+      left:1vw; 
+  }
+  .features .square{
+      top: 65vw !important; 
+      position: relative;
+      width: 20%; 
+      transform: scale(4.2); 
+      left:40vw; 
+      margin-right: 40vw !important;
+      margin-bottom: 75vw !important;
+  }
+  body{
+      height: 1000vh !important;
+  }
+  .dashboard-guide{
+      top:490vw;
+      transform: scale(2.2);
+  }
+  .dashboard-guide .header{
+      color:white; 
+      bottom: 430vw; 
+      left: 30vw;
+      transition-delay: 0s !important;
+      transition-duration: 0s !important; 
+      position:relative;
+      width: 40vw;
+      font-size: 90%;
+      opacity: 100%;
+  }
+  .dashboard-guide .information{
+      bottom: 428vw; 
+      width: 35vw; 
+      left: 32vw; 
+      font-size: 1.35vw; 
+
+  }
+  .dashboard-guide .fulldash{
+      bottom: 357vw !important;
+      left: 23vw; 
+      transform: scale(0.79);
+  }
+  .business-needs .header{
+      font-size: 230%; 
+      text-align: center !important;
+      top: 245vw !important; 
+      position: relative;  
+      width: 80vw !important;  
+  }
+  .business-needs .Performance-graph{
+      transform: scale(2.5);
+      position: relative; 
+      left: 28vw !important;
+      bottom: -265vw !important;  
+  }
+  .business-needs .description{
+      transform: scale(3.5);
+      width: 24vw;
+      position: relative; 
+      top: 360vw !important;  
+      left: 38vw !important; 
+      text-align: center !important; 
+  }
+  .business-needs .description2{
+      transform: scale(3.3);
+      width: 25vw;
+      position: relative; 
+      top: 392vw !important;  
+      left: 44vw !important; 
+      text-align: left !important; 
+  }
+  .business-needs .description2 div{
+      margin-bottom: 2.5vw !important;
+  }
+  .business-needs .gdemo{
+      transform: scale(3.3); 
+      position: relative;
+      top: 390vw !important; 
+      left: 45vw !important; 
+  }
+  .Brand-guide .header{
+      font-size: 230%; 
+      text-align: center !important;
+      top: 400vw !important; 
+      left: 10vw !important; 
+      position: relative;  
+      width: 80vw !important;  
+  }
+  .Brand-guide .Performance-graph{
+      transform: scale(2.5);
+      position: relative; 
+      left: 28vw !important;
+      bottom: -425vw !important;  
+  }
+  .Brand-guide .description{
+      transform: scale(3.5);
+      width: 24vw;
+      position: relative; 
+      top: 515vw !important;  
+      left: 38vw !important; 
+      text-align: center !important; 
+  }
+  .Brand-guide .description2{
+      transform: scale(3.5);
+      width: 24vw;
+      position: relative; 
+      top: 547vw !important;  
+      left: 33vw !important; 
+      text-align: center !important; 
+  }
+  .Brand-guide .gdemo2{
+      transform: scale(3.3); 
+      position: relative;
+      top: 545vw !important; 
+      left: 45vw !important; 
+  }
+  .questions .questions-header{
+      transform: scale(2.5) !important;
+      text-align: center;
+      top: 620vw !important;
+      left: 2vw !important;     
+  }
+  .questions .details{
+      transform: scale(3.3); 
+      position: relative;
+      top: 638vw !important; 
+      width: 23vw !important; 
+      left: 38vw !important;
+      text-align: center;
+  }
+  .questions .cu{
+      transform: scale(3.3); 
+      position: relative;
+      top: 650vw !important;
+      left: 46vw !important;
+  }
+  .questions .dropdown{
+      transform: scale(4.2); 
+      position: relative;
+      top: 710vw !important;
+      left: 167vw !important;
+  }
+  .questions .dropdown .head .infos{
+      margin-left: 1vw;
+      width: 19vw !important; 
+  }
+  .questions .dropdown .head button .ad{
+      margin-left: 8vw; 
+      transform: rotate("0deg");
+  }
+  .questions .dropdown .head button {
+      color: black !important; 
+      font-weight: 500;
+  }
+  .questions .dropdown .liners{
+      width: 19vw;
+      height:0.12vw; 
+      background-color: black; 
+      margin-top: 1vw !important;
+      margin-left: 1vw; 
+  }
+  .trynow{
+      height: 75vw; 
+      bottom:-785vw !important; 
+  }
+  .trynow .improve-header{
+      transform: scale(2.3);
+      width: 40vw !important; 
+      top: 20vw;
+      left: 30vw; 
+  }
+  .trynow .gd{
+      transform: scale(2.8);
+      font-weight: 300;
+      top: 37vw !important; 
+      left: 62vw !important;  
+  }
+  .trynow .cu{
+      transform: scale(2.8);
+      font-weight: 300;
+      top: 37vw !important; 
+      left: 11vw !important; 
+  }
+  .ending  .thelogo{
+      transform: scale(0.30);
+      image-rendering: optimizeQuality;
+      top: -15vw !important; 
+      opacity: 0% !important; 
+      left: -10vw !important; 
+  }
+  .ending .logoname{
+      transform: scale(4.5);
+      font-weight: 500;
+      left: 203vw !important; 
+      bottom: 33vw;
+  }
+  .ending .desc{
+      display: none;
+  }
+  .statistics{
+      display: none !important;
+      opacity: 0%; 
+  }
+  .ending-nav div{
+      display: block;
+      transform: scale(3.5);
+      margin-bottom: 50vw !important;
+      font-weight: 400;
+      left: 119vw !important;  
+      float:none;  
+  }
+  .ending-nav-info div{
+      transform: scale(2);
+      float: none;
+  }
+  .ending-nav-info .navinfosone div{
+      bottom: 400vw !important; 
+      margin-bottom: 4vw;
+  } */
 }
 @media screen and (min-width: 1600px) {
   .welcome {
