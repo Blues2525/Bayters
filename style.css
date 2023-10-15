@@ -164,7 +164,7 @@
     height: 0vw;
   }
   to {
-    height: 14vw;
+    height: 18vw;
     box-shadow: 0px 1px 10px rgba(195, 195, 195, 0.7333333333);
   }
 }
@@ -1462,26 +1462,26 @@ a.company:hover, a.products:hover, a.resources:hover, a.contact:hover {
     display: none;
   }
   .logo {
-    width: 10.05vw !important;
-    height: 6.05vw !important;
-    margin-top: 3.5vw !important;
-    margin-left: -15vw;
+    width: 10.5vw !important;
+    height: 6.3vw !important;
+    margin-top: 5.5vw !important;
+    margin-left: -16.5vw;
     margin-right: 0vw;
   }
   .navbar .name .Bayter {
-    font-size: 5.5vw !important;
-    font-weight: 700 !important;
-    left: 23.5vw !important;
-    bottom: -1.5vw !important;
+    font-size: 6vw !important;
+    font-weight: 560 !important;
+    left: 25.5vw !important;
+    bottom: -3.1vw !important;
   }
   .bars {
     display: block;
     background-color: transparent;
     color: #001763;
-    transform: scale(2);
+    transform: scale(2.3);
     position: relative;
-    top: 5.5vw;
-    left: 65vw;
+    top: 7vw;
+    left: 63vw;
     opacity: 0%;
     border: none;
     animation: openopacity 2s forwards;
@@ -1491,11 +1491,24 @@ a.company:hover, a.products:hover, a.resources:hover, a.contact:hover {
   .welcome .dashboard-image {
     transform: scale(275%) !important;
     position: relative;
-    top: 19s0vw;
-    left: -58.5vw !important;
+    top: 186vw;
+    left: -49.5vw !important;
+  }
+  .welcome .dashboard-image .dash {
+    left: 21.2vw;
+  }
+  .welcome .dashboard-image .fg {
+    left: -0.9vw !important;
+    bottom: 21.5vw;
+    position: relative;
+  }
+  .welcome .dashboard-image .tg {
+    left: 34.6vw !important;
+    position: relative;
   }
   .welcome .dashboard-image .fifty, .welcome .dashboard-image .seventy, .welcome .dashboard-image .ninety, .welcome .dashboard-image .cb, .welcome .dashboard-image .cb2, .welcome .dashboard-image .shipped, .welcome .dashboard-image .clients {
     opacity: 0% !important;
+    display: none;
   }
   .welcome .sample-data {
     font-size: 80%;
@@ -1504,21 +1517,21 @@ a.company:hover, a.products:hover, a.resources:hover, a.contact:hover {
     padding-top: 1.3vw;
     padding-bottom: 1.3vw;
     left: 35vw;
-    top: -49vw !important;
+    top: -35vw !important;
     text-align: center;
   }
   .welcome .header {
-    font-size: 340%;
+    font-size: 300%;
     line-height: 14vw;
     position: relative;
     text-align: center;
     left: 9vw !important;
-    top: -45vw !important;
+    top: -30vw !important;
     width: 80vw;
   }
   .welcome .description {
     font-size: 90%;
-    top: -42vw !important;
+    top: -25vw !important;
     width: 88%;
     left: 7vw !important;
     text-align: center;
@@ -1529,10 +1542,30 @@ a.company:hover, a.products:hover, a.resources:hover, a.contact:hover {
     position: relative;
     padding: 2vw 5vw 2vw 5vw;
     left: 34vw !important;
-    top: -35vw !important;
+    top: -20vw !important;
   }
-  .features {
-    opacity: 0%;
+  .features .features-description {
+    font-size: 90%;
+    bottom: -140vw;
+    width: 54vw;
+    z-index: 999;
+    left: 24.4vw;
+  }
+  .features .features-header {
+    font-size: 130%;
+    bottom: -145vw;
+  }
+  .features .square {
+    top: 190vw !important;
+    transform: scale(4.4);
+    margin-left: 60vw !important;
+    margin-bottom: 85vw !important;
+    border-bottom: 0.05vw solid #001763;
+    border-top: 0.05vw solid #001763;
+    left: -19vw !important;
+  }
+  .dashboard-guide, .business-needs, .statistics, .Brand-guide, .questions {
+    opacity: 0% !important;
   }
   /*
   .smallnav{
