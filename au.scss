@@ -1,0 +1,21 @@
+$colortheme: #001763; 
+body{
+    height: 100vh !important; 
+}
+.mission .header{
+    font-family: "Raleway";
+    color: $colortheme; 
+    font-size: 5vw; 
+    top: 10vw; 
+    left: 6vw; 
+    font-weight:600;
+    position: relative; 
+}
+.mission .lined{
+    width: 29vw; 
+    height: 0.1vw; 
+    top: 11vw; 
+    left: 5.7vw; 
+    position: relative; 
+    background-color: $colortheme;
+}
