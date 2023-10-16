@@ -1341,7 +1341,7 @@ a.company:hover, a.products:hover, a.resources:hover, a.contact:hover{
     html, body{
         overflow-x: hidden;
         overflow-y: scroll;
-        height: fit-content;
+        height: 2000vh;
     }
     .navbar{
         animation: openheightss 2s forwards; 
@@ -1456,10 +1456,74 @@ a.company:hover, a.products:hover, a.resources:hover, a.contact:hover{
         border-top: 0.05vw solid $colortheme;
         left: -19vw !important;
     }
-    .dashboard-guide, .business-needs, .statistics, .Brand-guide, .questions{
+    .statistics, .Brand-guide, .questions{
         opacity: 0% !important;
     }
-
+    .ending{
+        opacity: 0%;
+    }
+    .trynow{
+        opacity: 0% !important; 
+    }
+    .dashboard-guide{
+        width: 100%; 
+        height: 170vw; 
+        background-color: $colortheme;
+        top: 590vw; 
+        position:relative; 
+    }
+    .dashboard-guide .fulldash{
+        transform: scale(2);
+        position: relative; 
+        bottom: 350vw; 
+        image-rendering: optimizeQuality;
+        left: 50vw !important; 
+    }
+    .dashboard-guide .header{
+        font-weight: 200;
+        font-size: 150%;
+        left: 6vw;
+        bottom: 470vw;
+        line-height: 7.5vw;
+        letter-spacing: 0.05vw;
+        width:90vw; 
+    }
+    .dashboard-guide .information{
+        color: white; 
+        font-family: "Raleway"; 
+        position:relative; 
+        font-size: 80%; 
+        font-weight: 200; 
+        width: 89vw; 
+        bottom: 466vw;
+        left: 6vw; 
+        text-align: center;
+      }
+      .business-needs .header{
+            font-size: 230%; 
+            top: 320vw; 
+            width: 80vw !important;
+            left: 13vw !important; 
+            //text-align: center !important;
+            //top: 245vw !important; 
+            //position: relative;  
+            //width: 80vw !important;  
+    }
+      .business-needs .description{
+        font-size: 70%; 
+        top:325vw; 
+        left: 9.3vw; 
+        line-height: 5vw;
+        position: relative;
+        text-align: center; 
+        width: 80vw; 
+    }
+    .business-needs .Performance-graph{
+        transform: scale(290%);
+        position:relative; 
+        bottom: -360vw; 
+        left: 27.5vw; 
+    }
 
     /*
     .smallnav{
