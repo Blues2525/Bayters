@@ -1627,6 +1627,35 @@ a.company:hover, a.products:hover, a.resources:hover, a.contact:hover {
     bottom: -360vw;
     left: 27.5vw;
   }
+  .business-needs .inventory-graph {
+    position: relative;
+    transform: scale(300%);
+    bottom: -320vw;
+    left: -45vw;
+  }
+  .business-needs .revenue-graph {
+    position: relative;
+    transform: scale(300%);
+    bottom: -370vw;
+    left: 25vw;
+  }
+  .business-needs .description2 {
+    font-family: "Raleway";
+    width: 80vw;
+    font-size: 120%;
+    bottom: -470vw;
+    left: 9.5vw;
+    position: relative;
+  }
+  .business-needs .description2 div {
+    margin-bottom: 1.5vw;
+  }
+  .business-needs .gdemo {
+    transform: scale(3.3);
+    position: relative;
+    top: 450vw !important;
+    left: 45vw !important;
+  }
   /*
   .smallnav{
       height: 200vw;
