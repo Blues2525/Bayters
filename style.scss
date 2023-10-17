@@ -1491,9 +1491,6 @@ a.company:hover, a.products:hover, a.resources:hover, a.contact:hover{
         left: -19vw !important;
         box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px; 
     }
-    .questions{
-        opacity: 0% !important;
-    }
     .ending{
         opacity: 0%;
     }
@@ -1589,6 +1586,9 @@ a.company:hover, a.products:hover, a.resources:hover, a.contact:hover{
         top: 445vw !important; 
         left: 45vw !important; 
     }
+    .business-needs .description2 div i{
+        display: none;
+    }
     .statistics{
         width: 85%; 
         height: 175.5vw; 
@@ -1638,6 +1638,76 @@ a.company:hover, a.products:hover, a.resources:hover, a.contact:hover{
         text-align: center; 
         width: 80vw; 
         top:491vw; 
+    }
+    .Brand-guide .Performance-graph{
+        transform: scale(290%);
+        position:relative; 
+        left: 28vw; 
+        bottom: -485vw; 
+    }
+    .Brand-guide .inventory-graph{
+        transform: scale(300%);
+        position:relative; 
+        bottom: -445vw; 
+        left: -45vw;
+    }
+    .Brand-guide .revenue-graph{
+        transform: scale(300%);
+        position:relative; 
+        bottom: -500vw; 
+        left: 25vw;
+    }
+    .Brand-guide .description2{
+        font-family: "Raleway"; 
+        width: 79vw; 
+        font-size: 115%;
+        bottom: -605vw; 
+        left: 10vw; 
+        font-weight: 200;
+        position:relative; 
+    }
+    .Brand-guide .description2 div{
+        margin-bottom: 3vw; 
+        text-align: left; 
+    }
+    .Brand-guide .description2 div i{
+        opacity: 0%; 
+    }
+    .Brand-guide .gdemo2{
+        transform: scale(4.0); 
+        position: relative;
+        top:585.5vw; 
+        left: 45vw; 
+    }
+     .questions .details, .questions .cu, .questions .liners{
+        opacity:  0%;
+    }
+    .questions .questions-header{
+        transform: scale(300%);
+        top: 620vw; 
+        left: -10vw; 
+    }
+    .questions .dropdown{
+        transform: scale(400%);
+    }
+    .questions .dropdown{
+        top: 650vw;
+        left: 152vw; 
+    } 
+    
+    .dropdown .head button .ad{
+        margin-left: 10vw; 
+        transform: rotate("0deg");
+    }
+    .dropdown .head button{
+        color: black !important;
+        font-weight: 200;
+        margin-bottom: 1vw !important;
+    }
+    .dropdown .head .infos{
+        width: 22vw;
+        margin-left: 1vw;
+        margin-bottom: 0.5vw !important ;
     }
     /*
     .smallnav{
