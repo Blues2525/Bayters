@@ -1563,7 +1563,7 @@ a.company:hover, a.products:hover, a.resources:hover, a.contact:hover {
     left: -19vw !important;
     box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
   }
-  .statistics, .Brand-guide, .questions {
+  .questions {
     opacity: 0% !important;
   }
   .ending {
@@ -1656,6 +1656,56 @@ a.company:hover, a.products:hover, a.resources:hover, a.contact:hover {
     position: relative;
     top: 445vw !important;
     left: 45vw !important;
+  }
+  .statistics {
+    width: 85%;
+    height: 175.5vw;
+    bottom: -500vw;
+    background-color: #001763 !important;
+  }
+  .statistics .numbers {
+    font-family: "Raleway";
+    font-size: 310%;
+    float: none;
+    color: white;
+    margin-right: 22vw;
+    margin-bottom: 35vw !important;
+    left: 10vw;
+    top: 17vw;
+  }
+  .statistics .infos {
+    float: none;
+    font-family: "Raleway";
+    font-size: 100%;
+    line-height: 8vw;
+    color: white;
+    position: relative;
+    width: 75vw;
+    top: -112vw;
+    left: 10vw;
+    margin-right: 7.8vw;
+    margin-bottom: 26vw;
+  }
+  .statistics .liner {
+    opacity: 0%;
+  }
+  .Brand-guide .header {
+    font-size: 230%;
+    position: relative;
+    text-align: center !important;
+    width: 80vw !important;
+    bottom: -485vw !important;
+    left: 10vw !important;
+    color: black !important;
+  }
+  .Brand-guide .description {
+    font-size: 70%;
+    left: 9.3vw;
+    line-height: 5vw;
+    position: relative;
+    text-align: center;
+    width: 80vw;
+    top: 491vw;
   }
   /*
   .smallnav{
