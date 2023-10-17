@@ -852,14 +852,14 @@ a.company:hover, a.products:hover, a.resources:hover, a.contact:hover{
 } 
 .gdemo{
     opacity: 100%;
-    border: $colortheme 0.5vw solid;
+    border: $colortheme 0.2vw solid;
     background-color: $colortheme !important; 
     font-size: 0.95vw;
     font-weight: 200;
-    padding-left: 1.7vw; 
-    padding-top: 0.4vw; 
-    padding-bottom: 0.4vw;
-    padding-right: 1.7vw;
+    padding-left: 1.9vw; 
+    padding-top: 0.7vw; 
+    padding-bottom: 0.7vw;
+    padding-right: 1.9vw;
     border-radius: 0.1vw;
     letter-spacing: 0.2px;
     color:white; 
@@ -867,6 +867,7 @@ a.company:hover, a.products:hover, a.resources:hover, a.contact:hover{
     position: relative; 
     top:-39.5vw; 
     left: 9vw; 
+    cursor:pointer; 
 }
 .Brand-guide .header{
     font-family: "Raleway"; 
@@ -933,14 +934,14 @@ a.company:hover, a.products:hover, a.resources:hover, a.contact:hover{
 }
 .gdemo2{
     opacity: 100%;
-    border: $colortheme 0.5vw solid;
+    border: $colortheme 0.2vw solid;
     background-color: $colortheme !important; 
     font-size: 0.95vw;
     font-weight: 200;
-    padding-left: 1.7vw; 
-    padding-top: 0.4vw; 
-    padding-bottom: 0.4vw;
-    padding-right: 1.7vw;
+    padding-left: 1.9vw; 
+    padding-top: 0.7vw; 
+    padding-bottom: 0.7vw;
+    padding-right: 1.9vw;
     border-radius: 0.1vw;
     letter-spacing: 0.2px;
     color:white; 
@@ -948,6 +949,17 @@ a.company:hover, a.products:hover, a.resources:hover, a.contact:hover{
     position: relative; 
     top:-48.5vw; 
     left: 79vw; 
+    cursor: pointer; 
+}
+.gdemo:hover{
+    background-color: white !important;
+    color: $colortheme; 
+    border: $colortheme 0.2vw solid;
+}
+.gdemo2:hover{
+    background-color: white !important; 
+    color: $colortheme; 
+    border: $colortheme 0.2vw solid;
 }
 .Brand-guide{
     position:relative; 
@@ -1156,7 +1168,7 @@ a.company:hover, a.products:hover, a.resources:hover, a.contact:hover{
     position:relative; 
     top: 5.5vw; 
     text-align: center;
-    left: 25.5vw; 
+    left: 28vw; 
     width: 45vw; 
   }
   .trynow .details{
@@ -1181,7 +1193,7 @@ a.company:hover, a.products:hover, a.resources:hover, a.contact:hover{
     padding-bottom: 0.8vw;
     letter-spacing: 0.2px; 
     position:relative; 
-    left: 33vw !important; 
+    left: 37vw !important; 
     cursor:pointer; 
     top:8vw; 
     margin-right: 3vw; 
@@ -1206,7 +1218,7 @@ a.company:hover, a.products:hover, a.resources:hover, a.contact:hover{
     padding-bottom: 0.8vw;
     letter-spacing: 0.2px;
     position: relative;
-    left: 33vw !important;
+    left: 38vw !important;
     cursor: pointer;
     top: 8vw;
     font-family: "Raleway";
