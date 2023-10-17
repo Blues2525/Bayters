@@ -176,6 +176,20 @@
     display: block;
   }
 }
+@keyframes questionsi {
+  25% {
+    margin-left: 0.5vw;
+  }
+  50% {
+    margin-left: 0.9vw;
+  }
+  75% {
+    margin-left: 0.5vw;
+  }
+  100% {
+    margin-left: 0.9vw;
+  }
+}
 body {
   margin: 0 0;
   height: 500vh;
@@ -1194,6 +1208,15 @@ a.company:hover, a.products:hover, a.resources:hover, a.contact:hover {
 
 .questions .cu i {
   margin-left: 0.5vw;
+}
+
+.questions .cu:hover {
+  color: black;
+}
+
+.questions .cu:hover > .questions .cu i {
+  animation-name: questionsi;
+  animation-duration: 2s;
 }
 
 .questions {
