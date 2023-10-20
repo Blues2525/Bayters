@@ -1375,7 +1375,7 @@ a.company:hover, a.products:hover, a.resources:hover, a.contact:hover{
     html, body{
         overflow-x: hidden;
         overflow-y: scroll;
-        height: 2000vh;
+        height: 1200vh;
     }
     .navbar{
         animation: openheightss 2s forwards; 
@@ -1492,9 +1492,6 @@ a.company:hover, a.products:hover, a.resources:hover, a.contact:hover{
         // border-top: 0.05vw solid $colortheme;
         left: -19vw !important;
         box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px; 
-    }
-    .ending{
-        opacity: 0% !important; 
     }
     .dashboard-guide{
         width: 100%; 
@@ -1882,6 +1879,16 @@ a.company:hover, a.products:hover, a.resources:hover, a.contact:hover{
     }
     #sn-company-infos, .sn-company, #sn-products-infos, .Lmb, .Gtd, .sn-products, #sn-resources-infos, .sn-resources, .sn-contact, .linetwo, .linetwotwo, .logo-two{
         transform: translateY(-29vw) !important;
+    }
+    .ending{
+        opacity: 100%; 
+        position: relative;
+        top: 770vw; 
+        height: 50vh;
+    }
+    .ending .logoname{
+        font-size: 150%;
+        bottom: 20vw;
     }
     /*
     .dashboard-image{
