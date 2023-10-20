@@ -1603,9 +1603,6 @@ a.company:hover, a.products:hover, a.resources:hover, a.contact:hover {
     box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
   }
   .ending {
-    opacity: 0%;
-  }
-  .trynow {
     opacity: 0% !important;
   }
   .dashboard-guide {
@@ -1791,14 +1788,15 @@ a.company:hover, a.products:hover, a.resources:hover, a.contact:hover {
   }
   .questions .questions-header {
     transform: scale(300%);
-    top: 620vw;
-    left: -10vw;
+    top: 650vw;
+    left: -89vw;
+    text-align: center !important;
   }
   .questions .dropdown {
     transform: scale(400%);
   }
   .questions .dropdown {
-    top: 650vw;
+    top: 692vw;
     left: 152vw;
   }
   .dropdown .head button .ad {
@@ -1814,6 +1812,29 @@ a.company:hover, a.products:hover, a.resources:hover, a.contact:hover {
     width: 22vw;
     margin-left: 1vw;
     margin-bottom: 0.5vw !important;
+  }
+  .trynow {
+    position: relative;
+    top: 770vw;
+    height: 80vw;
+  }
+  .trynow .improve-header {
+    font-size: 200%;
+    width: 80vw;
+    top: 11vw;
+    left: 12vw;
+  }
+  .trynow .gd {
+    transform: scale(300%);
+    font-weight: 500;
+    top: 20vw;
+    left: 25vw !important;
+  }
+  .trynow .cu {
+    transform: scale(300%);
+    font-weight: 500;
+    top: 20vw;
+    left: 50vw !important;
   }
   .smallnav {
     height: 200vw;
