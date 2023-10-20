@@ -447,7 +447,6 @@ a.company:hover, a.products:hover, a.resources:hover, a.contact:hover{
     margin-left: 0.1vw; 
     opacity: 100% !important; 
     font-weight: 300 !important;
-    -webkit-text-stroke: 1.5x white;
 }
 .GetDemo{
     opacity: 100%;
@@ -1445,6 +1444,7 @@ a.company:hover, a.products:hover, a.resources:hover, a.contact:hover{
         left: 35vw; 
         top: -35vw !important; 
         text-align: center;
+        z-index: 899;
     }
     .welcome .header{
         font-size: 300%; 
@@ -1711,14 +1711,15 @@ a.company:hover, a.products:hover, a.resources:hover, a.contact:hover{
         margin-left: 1vw;
         margin-bottom: 0.5vw !important ;
     }
-    /*
+    
     .smallnav{
         height: 200vw;
         width: 200vw; 
         position: relative;
         top: 0vw;
-        background-color: green;
+        background-color: white;
     }
+    
     .smallnav.viewing{
         width: 100%; 
         height: 100%;
@@ -1727,15 +1728,19 @@ a.company:hover, a.products:hover, a.resources:hover, a.contact:hover{
         position: fixed !important;
         display: block !important;
     }
-     /*
+     
     .smallnav .x-button{
-        transform: scale(2.5);
+        transform: translateY(-30vw) scale(2.2);
         background-color: transparent;
         position:relative;
-        color: black;
+        color: $colortheme;
         float:right;  
-        left: -6vw;
-        top: 8vw; 
+        left: -7vw;
+        top: 14.5vw; 
+    }
+    .smallnav img, .smallnav div, .smallnav a{
+        position:relative; 
+        //bottom: 30vw; 
     }
     .smallnav .linetwo{
         width: 100vw; 
@@ -1768,11 +1773,11 @@ a.company:hover, a.products:hover, a.resources:hover, a.contact:hover{
         position:relative; 
     }
     .smallnav a.sn-products i{
-        margin-left: 45vw; 
+        margin-left: 45.7vw; 
         position:relative; 
     }
     .smallnav a.sn-resources i{
-        margin-left: 61.4vw;   
+        margin-left: 62vw;   
         position:relative; 
     }
     .smallnav a, .smallnav .linetwo{
@@ -1832,8 +1837,33 @@ a.company:hover, a.products:hover, a.resources:hover, a.contact:hover{
         width: 100vw; 
         height: 0.2vw; 
         background-color: rgb(235, 235, 235);
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 12px;
     }
+    .logo-two{
+        width: 12.0vw !important; 
+        height: 7.2vw !important; 
+        position: relative;
+        top: 36vw;
+        z-index: 999;
+        left: 6.5vw;
+    }
+    .smallnav div a.Bayter-two{
+        position: relative;
+        top: 21vw !important;
+        left: 11vw; 
+        background-color: white;
+        font-size: 6vw;
+        color: $colortheme;
+        font-weight: 580;
+        transform: translateY(-25.5vw) !important;
+    }
+    .smallnav a i{
+        transform: translateY(1px) !important; 
+    }
+    #sn-company-infos, .sn-company, #sn-products-infos, .Lmb, .Gtd, .sn-products, #sn-resources-infos, .sn-resources, .sn-contact, .linetwo, .linetwotwo, .logo-two{
+        transform: translateY(-29vw) !important;
+    }
+    /*
     .dashboard-image{
         display: none;
     }

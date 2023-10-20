@@ -472,7 +472,6 @@ a.company:hover, a.products:hover, a.resources:hover, a.contact:hover {
   margin-left: 0.1vw;
   opacity: 100% !important;
   font-weight: 300 !important;
-  -webkit-text-stroke: 1.5x white;
 }
 
 .GetDemo {
@@ -1557,6 +1556,7 @@ a.company:hover, a.products:hover, a.resources:hover, a.contact:hover {
     left: 35vw;
     top: -35vw !important;
     text-align: center;
+    z-index: 899;
   }
   .welcome .header {
     font-size: 300%;
@@ -1815,129 +1815,154 @@ a.company:hover, a.products:hover, a.resources:hover, a.contact:hover {
     margin-left: 1vw;
     margin-bottom: 0.5vw !important;
   }
-  /*
-  .smallnav{
-      height: 200vw;
-      width: 200vw; 
-      position: relative;
-      top: 0vw;
-      background-color: green;
+  .smallnav {
+    height: 200vw;
+    width: 200vw;
+    position: relative;
+    top: 0vw;
+    background-color: white;
   }
-  .smallnav.viewing{
-      width: 100%; 
-      height: 100%;
-      opacity: 100%; 
-      z-index: 900 !important;
-      position: fixed !important;
-      display: block !important;
+  .smallnav.viewing {
+    width: 100%;
+    height: 100%;
+    opacity: 100%;
+    z-index: 900 !important;
+    position: fixed !important;
+    display: block !important;
   }
-   /*
-  .smallnav .x-button{
-      transform: scale(2.5);
-      background-color: transparent;
-      position:relative;
-      color: black;
-      float:right;  
-      left: -6vw;
-      top: 8vw; 
+  .smallnav .x-button {
+    transform: translateY(-30vw) scale(2.2);
+    background-color: transparent;
+    position: relative;
+    color: #001763;
+    float: right;
+    left: -7vw;
+    top: 14.5vw;
   }
-  .smallnav .linetwo{
-      width: 100vw; 
-      height: 0.2vw; 
-      background-color: rgb(235, 235, 235);
-      left: 0vw; 
-      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  .smallnav img, .smallnav div, .smallnav a {
+    position: relative;
   }
-  .smallnav a{
-      color:black; 
-      font-size: 3.8vw;
-      font-weight: 200;
-      font-family: "Raleway";
-      text-decoration: none;
-      padding-left: 5vw; 
-      background-color: white;
-      font-weight: 300;
+  .smallnav .linetwo {
+    width: 100vw;
+    height: 0.2vw;
+    background-color: rgb(235, 235, 235);
+    left: 0vw;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
-
-  .sn-company.views, .sn-resources.views, .sn-products.views{
-      background-color:#fafafa;
+  .smallnav a {
+    color: black;
+    font-size: 3.8vw;
+    font-weight: 200;
+    font-family: "Raleway";
+    text-decoration: none;
+    padding-left: 5vw;
+    background-color: white;
+    font-weight: 300;
+  }
+  .sn-company.views, .sn-resources.views, .sn-products.views {
+    background-color: #fafafa;
   }
   .smallnav .sn-company, .smallnav .sn-products, .smallnav .sn-resources, .smallnav .sn-contact {
-      display: block;
-      padding-top: 5vw !important; 
-      padding-bottom: 5vw !important;
+    display: block;
+    padding-top: 5vw !important;
+    padding-bottom: 5vw !important;
   }
-  .smallnav a.sn-company i{
-      margin-left: 63vw; 
-      position:relative; 
+  .smallnav a.sn-company i {
+    margin-left: 63vw;
+    position: relative;
   }
-  .smallnav a.sn-products i{
-      margin-left: 45vw; 
-      position:relative; 
+  .smallnav a.sn-products i {
+    margin-left: 45.7vw;
+    position: relative;
   }
-  .smallnav a.sn-resources i{
-      margin-left: 61.4vw;   
-      position:relative; 
+  .smallnav a.sn-resources i {
+    margin-left: 62vw;
+    position: relative;
   }
-  .smallnav a, .smallnav .linetwo{
-      position: relative; 
-      top: 25vw; 
+  .smallnav a, .smallnav .linetwo {
+    position: relative;
+    top: 25vw;
   }
-  .smallnav .sn-company-infos{
-      width: 20vw !important; 
-      display: none;
+  .smallnav .sn-company-infos {
+    width: 20vw !important;
+    display: none;
   }
-  .smallnav .sn-products-infos{
-      width: 20vw !important; 
-      display:none; 
+  .smallnav .sn-products-infos {
+    width: 20vw !important;
+    display: none;
   }
-  .smallnav .sn-resources-infos{
-      width: 20vw !important; 
-      display: none; 
+  .smallnav .sn-resources-infos {
+    width: 20vw !important;
+    display: none;
   }
-  .smallnav div a{
-      display: block;
-      color: rgb(70, 70, 70); 
-      font-weight: 300;
-      font-size: 3.7vw; 
-      padding-top: 3vw !important; 
-      padding-left: 12vw !important; 
-      right:5vw !important; 
-      background-color: #fafafa;
-      width: 100vw; 
-      padding-bottom: 5vw !important; 
-      top: 25vw; 
+  .smallnav div a {
+    display: block;
+    color: rgb(70, 70, 70);
+    font-weight: 300;
+    font-size: 3.7vw;
+    padding-top: 3vw !important;
+    padding-left: 12vw !important;
+    right: 5vw !important;
+    background-color: #fafafa;
+    width: 100vw;
+    padding-bottom: 5vw !important;
+    top: 25vw;
   }
-  .smallnav .Gtd{
-      background-color: $colortheme;
-      border: $colortheme 0.2vw solid;
-      padding: 3vw 3vw 3vw 3vw; 
-      top: 32vw;  
-      color:white; 
-      font-size: 3.8vw; 
-      font-family: "Raleway";
-      position:relative; 
+  .smallnav .Gtd {
+    background-color: #001763;
+    border: #001763 0.2vw solid;
+    padding: 3vw 3vw 3vw 3vw;
+    top: 32vw;
+    color: white;
+    font-size: 3.8vw;
+    font-family: "Raleway";
+    position: relative;
   }
-  .smallnav .Lmb{
-      background-color: transparent;
-      border: $colortheme 0.2vw solid;
-      padding: 3vw 3vw 3vw 3vw; 
-      top: 32vw;  
-      color:$colortheme; 
-      font-size: 3.8vw; 
-      font-family: "Raleway";
-      position:relative; 
-      margin-right: 4vw; 
-      margin-left: 5vw; 
+  .smallnav .Lmb {
+    background-color: transparent;
+    border: #001763 0.2vw solid;
+    padding: 3vw 3vw 3vw 3vw;
+    top: 32vw;
+    color: #001763;
+    font-size: 3.8vw;
+    font-family: "Raleway";
+    position: relative;
+    margin-right: 4vw;
+    margin-left: 5vw;
   }
-  .smallnav .linetwotwo#two{
-      top: 13vw  !important;
-      position:relative;  
-      width: 100vw; 
-      height: 0.2vw; 
-      background-color: rgb(235, 235, 235);
-      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  .smallnav .linetwotwo#two {
+    top: 13vw !important;
+    position: relative;
+    width: 100vw;
+    height: 0.2vw;
+    background-color: rgb(235, 235, 235);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 12px;
   }
+  .logo-two {
+    width: 12vw !important;
+    height: 7.2vw !important;
+    position: relative;
+    top: 36vw;
+    z-index: 999;
+    left: 6.5vw;
+  }
+  .smallnav div a.Bayter-two {
+    position: relative;
+    top: 21vw !important;
+    left: 11vw;
+    background-color: white;
+    font-size: 6vw;
+    color: #001763;
+    font-weight: 580;
+    transform: translateY(-25.5vw) !important;
+  }
+  .smallnav a i {
+    transform: translateY(1px) !important;
+  }
+  #sn-company-infos, .sn-company, #sn-products-infos, .Lmb, .Gtd, .sn-products, #sn-resources-infos, .sn-resources, .sn-contact, .linetwo, .linetwotwo, .logo-two {
+    transform: translateY(-29vw) !important;
+  }
+  /*
   .dashboard-image{
       display: none;
   }
